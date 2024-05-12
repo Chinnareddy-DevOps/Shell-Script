@@ -8,5 +8,5 @@ echo "please enetr password"
 
 read PASSWORD
 
-echo "User name is: @USERNAME, Password is: $PASSWORD"
+echo "User name is: $USERNAME, Password is: $PASSWORD"
 
