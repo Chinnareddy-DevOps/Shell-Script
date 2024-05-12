@@ -5,5 +5,5 @@ NO2=$2
 
 SUM=$(($NO1+$NO2))
 
-echo="Total is:$SUM"
+echo="Total is: $SUM"
 
