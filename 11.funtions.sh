@@ -3,7 +3,7 @@
 USERID=$(id -u)
 
 TIMESTAMP=$(date +%F-%H-%M-%S)
-SCRIPTNAME=$(echo $0 | cut -d "." -f1)
+SCRIPTNAME=$0
 OUTPUT=/tmp/$SCRIPTNAME-$TIMESTAMP.log
 
 VALIDATE(){
